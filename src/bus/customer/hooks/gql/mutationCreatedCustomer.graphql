@@ -1,0 +1,10 @@
+
+
+mutation signUp($customer: CustomerInput!) {
+    signUp(customer: $customer) {
+        firstName,
+        lastName,
+        id
+        email
+    }
+}
